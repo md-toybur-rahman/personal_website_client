@@ -2,29 +2,29 @@
     {
         "id": 1,
         "project_name": "Language Mastery",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-3-370x247.jpg",
+        "image": "https://m.media-amazon.com/images/S/amzn-author-media-prod/aq5fpg9pus04ha46efc4p6tkaf.jpg",
         "category": "Learning Platform",
-        "live_link": "liveLink URL"
+        "live_link": "https://language-mastery-d6d30.web.app"
     },
     {
         "id": 2,
         "project_name": "Toys World",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-1-370x247.jpg",
+        "image": "https://cdn.shopify.com/s/files/1/0349/4379/5332/files/TW-Best-Toys-Web-Banner-781x854-0223-FA-01_479x.jpg?v=1677561529",
         "category": "Online Shopping",
-        "live_link": "liveLink URL"
+        "live_link": "https://toys-world-a9653.web.app/"
     },
     {
         "id": 3,
         "project_name": "Awesome Chef",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-5-370x247.jpg",
+        "image": "https://www.awesomechef.in/wp-content/uploads/2020/06/Awesome-Chef-Logo-PNG.png",
         "category": "Chef Collection",
-        "live_link": "liveLink URL"
+        "live_link": "https://awesome-chef-9bf80.web.app/"
     },
     {
         "id": 4,
         "project_name": "Job Hunter",
-        "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-2-370x247.jpg",
+        "image": "https://yt3.googleusercontent.com/seEOlV63-FCBHHXpfr08M2SI-cmo-0-USTBHp11qdiquLGhzcYXJCdShGPXx1qTwnweY2pPU8yY=s900-c-k-c0x00ffffff-no-rj",
         "category": "Job Placement",
-        "live_link": "liveLink URL"
+        "live_link": "https://job-hunter-50e385.netlify.app/L"
     }
 ]

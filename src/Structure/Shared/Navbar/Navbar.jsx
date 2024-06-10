@@ -7,14 +7,14 @@ import { TypeAnimation } from 'react-type-animation';
 const Navbar = ({ isDark, setIsDark }) => {
     const onButtonClick = () => {
         // using Java Script method to get PDF file
-        fetch('ResumeOfToyburRahman.pdf').then(response => {
+        fetch('Resume_of_Toybur_Rahman.pdf').then(response => {
             response.blob().then(blob => {
                 // Creating new object of PDF file
                 const fileURL = window.URL.createObjectURL(blob);
                 // Setting various property values
                 let alink = document.createElement('a');
                 alink.href = fileURL;
-                alink.download = 'ResumeOfToyburRahman.pdf';
+                alink.download = 'Resume_of_Toybur_Rahman.pdf';
                 alink.click();
             })
         })
@@ -25,31 +25,34 @@ const Navbar = ({ isDark, setIsDark }) => {
         navigate('/menu')
     }
     return (
-        <div className="px-20 mt-10 z-10">
+        <div className="mt-10 z-10 w-full">
             <div className='flex items-center justify-between'>
                 <Link to="/" className="flex items-center gap-5">
-                    <h1 className="text-6xl font-monoton">TR</h1>
+                    <h1 className="text-3xl md:text-6xl font-monoton">TR</h1>
                     <div className="flex flex-col">
-                        <h1 className="text-2xl font-bold">Toybur Rahman</h1>
-                        <TypeAnimation
-                            sequence={[
-                                '',
-                                500,
-                                'Full Stack Web',
-                                500,
-                                'Full Stack Web Developer',
-                                500
-                            ]}
-                            wrapper="span"
-                            cursor={true}
-                            speed={10}
-                            repeat={Infinity}
-                            style={{ fontSize: '16px', display: 'inline-block', fontWeight: '600' }}
-                        />
+                        <h1 className="md:text-2xl font-bold">Toybur Rahman</h1>
+                        <div className="hidden md:block">
+                            <TypeAnimation
+                               
+                                sequence={[
+                                    '',
+                                    500,
+                                    'Front End Web Developer',
+                                    500,
+                                    'Expert On MERN Technologies',
+                                    500
+                                ]}
+                                wrapper="span"
+                                cursor={true}
+                                speed={10}
+                                repeat={Infinity}
+                                style={{ fontSize: '16px', display: 'inline-block', fontWeight: '600' }}
+                            />
+                        </div>
                     </div>
                 </Link>
                 <div className="flex items-center gap-8">
-                    <div onClick={onButtonClick} className='flex items-center gap-2 text-xl'>
+                    <div onClick={onButtonClick} className='hidden md:flex items-center gap-2 text-xl'>
                         <MdDownload className="text-2xl"></MdDownload>
 
                         <div className='option'>
@@ -57,8 +60,8 @@ const Navbar = ({ isDark, setIsDark }) => {
                             <hr className='option_hr' />
                         </div>
                     </div>
-                    <MdOutlineLightMode onClick={() => setIsDark(!isDark)} className={`text-3xl`}></MdOutlineLightMode>
-                    <MdMenu onClick={() => handleMenu()} className={`text-4xl`}></MdMenu>
+                    <MdOutlineLightMode onClick={() => setIsDark(!isDark)} className={`text-xl md:text-3xl`}></MdOutlineLightMode>
+                    <MdMenu onClick={() => handleMenu()} className={`text-2xl md:text-4xl`}></MdMenu>
                 </div>
             </div>
         </div>
