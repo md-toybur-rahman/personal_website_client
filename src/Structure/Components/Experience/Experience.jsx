@@ -5,26 +5,38 @@ import 'aos/dist/aos.css';
 const Experience = () => {
 	return (
 		<div data-aos="fade-down" data-aos-duration="1500" className='flex flex-col justify-center min-h-[90vh] mt-20'>
-			<div className='grid grid-cols-1 md:grid-cols-3 items-center gap-10 md:gap-20 pb-10'>
-				<div data-aos="fade-left" data-aos-duration="1500" className='flex md:hidden mt-4'>
-					{/* <img className='rounded-lg h-[250px]' src="https://i.ibb.co/dGKcNkL/IMG-4111-copy.jpg" alt="" /> */}
-					<img className='rounded-lg h-[250px]' src="https://i.ibb.co/zHTgWJJ/crop-pic.jpg" alt="" />
-				</div>
-				<div data-aos="fade-right" data-aos-duration="1500" className='col-span-2'>
-					<div className='mb-5'>
-						<h1 className='text-4xl md:text-7xl font-bold mb-3'>ABOUt</h1>
-						<hr />
-					</div>
+			<div className='mb-5'>
+				<h1 className='text-4xl md:text-7xl font-bold mb-3'>Experience</h1>
+				<hr />
+			</div>
+			<div className='grid grid-cols-1 md:grid-cols-12 gap-10 md:gap-20 pb-10'>
+
+				<div data-aos="fade-right" data-aos-duration="1500" className='col-span-5'>
 					<div>
-						<h1 className='font-semibold text-md md:text-xl pt-4'>I am a dedicated Front End Developer with over 18 months of professional experience and more than 5 years working with HTML, CSS, and JavaScript. I have a strong foundation in front-end development and specialize in creating responsive, user-friendly interfaces. My expertise extends to using modern tools and frameworks like React, Tailwind CSS, and Bootstrap.
-
-							In addition to front-end development, I have experience with back-end technologies such as Node.js, Express.js, and MongoDB. I am committed to efficient time management and target-oriented work, making me a reliable and effective developer. My skills in communication, collaboration, and technical documentation further enhance my ability to deliver high-quality projects.</h1>
+						<h1 className='text-md md:text-xl font-semibold'>Front End Developer</h1>
+						<h1 className='text-md md:text-xl font-semibold'>Kites Developer LTD. (Remote)</h1>
+						<h1>September 2023 - April 2024</h1>
+						<h1 className='text-md md:text-xl pt-4'>
+							∘ Designed and developed front-end solutions using HTML, CSS, Tailwind CSS, JavaScript, and React. <br /> <br />
+							∘ Customized and optimized websites for enhanced performance. <br /> <br />
+							∘ Developed various web components such as landing pages, puzzle games, forms, and voting platforms.
+						</h1>
 
 					</div>
 				</div>
-				<div data-aos="fade-left" data-aos-duration="1500" className='hidden md:flex justify-center'>
-					{/* <img className='rounded-lg h-[450px]' src="https://i.ibb.co/dGKcNkL/IMG-4111-copy.jpg" alt="" /> */}
-					<img className='rounded-lg h-[350px]' src="https://i.ibb.co/zHTgWJJ/crop-pic.jpg" alt="" />
+				<div className='w-1 h-full bg-gray-300 mx-auto hidden md:block'></div>
+				<div data-aos="fade-left" data-aos-duration="1500" className='flex justify-end col-span-5'>
+				<div>
+						<h1 className='text-md md:text-xl font-semibold'>Application Specialist</h1>
+						<h1 className='text-md md:text-xl font-semibold'>Progeny Technologies LTD. (Onsite Internship)</h1>
+						<h1>November 2023 - January 2024</h1>
+						<h1 className='text-md md:text-xl pt-4'>
+							∘ Created and implemented reports using Crystal Reports. <br /> <br />
+							∘ Conducted project testing and issue identification. <br /> <br />
+							∘ Interacted with clients to gather requirements and relay them to the development team.
+						</h1>
+
+					</div>
 				</div>
 			</div>
 

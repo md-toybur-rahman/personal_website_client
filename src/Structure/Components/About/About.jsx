@@ -11,7 +11,7 @@ const About = () => {
                 </div>
                 <div data-aos="fade-right" data-aos-duration="1500" className='col-span-2'>
                     <div className='mb-5'>
-                        <h1 className='text-4xl md:text-7xl font-bold mb-3'>ABOUT</h1>
+                        <h1 className='text-4xl md:text-7xl font-bold mb-3'>About</h1>
                         <hr />
                     </div>
                     <div>
