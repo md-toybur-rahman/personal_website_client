@@ -39,7 +39,7 @@ const Navbar = ({ isDark, setIsDark }) => {
                                     500,
                                     'Front End Web Developer',
                                     500,
-                                    'Expert On MERN Technologies',
+                                    'Expert On Front-End Technologies',
                                     500
                                 ]}
                                 wrapper="span"
