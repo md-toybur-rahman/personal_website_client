@@ -15,7 +15,7 @@ const About = () => {
                         <hr />
                     </div>
                     <div>
-                        <h1 className='font-semibold text-md md:text-xl pt-4'>I am a dedicated Front End Developer with over 18 months of professional experience and more than 5 years working with HTML, CSS, and JavaScript. I have a strong foundation in front-end development and specialize in creating responsive, user-friendly interfaces. My expertise extends to using modern tools and frameworks like React, Tailwind CSS, and Bootstrap.
+                        <h1 className='font-semibold text-md md:text-xl pt-4'>I am a dedicated Web Developer with over 18 months of professional experience and more than 3 years  of personal experience. I have a strong foundation in front-end development and specialize in creating responsive, user-friendly interfaces. My expertise extends to using modern tools and frameworks like React, Tailwind CSS, and Bootstrap.
 
                             In addition to front-end development, I have experience with back-end technologies such as Node.js, Express.js, and MongoDB. I am committed to efficient time management and target-oriented work, making me a reliable and effective developer. My skills in communication, collaboration, and technical documentation further enhance my ability to deliver high-quality projects.</h1>
 
@@ -23,7 +23,7 @@ const About = () => {
                 </div>
                 <div data-aos="fade-left" data-aos-duration="1500" className='hidden md:flex justify-center'>
                     {/* <img className='rounded-lg h-[450px]' src="https://i.ibb.co/dGKcNkL/IMG-4111-copy.jpg" alt="" /> */}
-                    <img className='rounded-lg h-[350px]' src="https://i.ibb.co/zHTgWJJ/crop-pic.jpg" alt="" />
+                    <img className='rounded-lg h-[350px]' src="profile.jpg" alt="" />
                 </div>
             </div>
 

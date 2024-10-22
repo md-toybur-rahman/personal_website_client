@@ -18,3 +18,13 @@
         height: 250px;
     }
 }
+
+::-webkit-scrollbar {
+    display: none;
+    width: 0;
+    height: 0;
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }

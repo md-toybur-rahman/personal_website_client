@@ -14,7 +14,7 @@ const Navbar = ({ isDark, setIsDark }) => {
                 // Setting various property values
                 let alink = document.createElement('a');
                 alink.href = fileURL;
-                alink.download = 'Front-End-Resume-Toybur-Rahman.pdf';
+                alink.download = 'Toybur Rahman Resume.pdf';
                 alink.click();
             })
         })
@@ -26,7 +26,7 @@ const Navbar = ({ isDark, setIsDark }) => {
     }
     return (
         <div className="mt-10 z-10 w-full">
-            <div className='flex items-center justify-between'>
+            <div className='flex items-center justify-between px-3 md:px-0'>
                 <Link to="/" className="flex items-center gap-5">
                     <h1 className="text-3xl md:text-6xl font-monoton">TR</h1>
                     <div className="flex flex-col">
@@ -37,9 +37,11 @@ const Navbar = ({ isDark, setIsDark }) => {
                                 sequence={[
                                     '',
                                     500,
-                                    'Front End Web Developer',
+                                    'Web Developer',
                                     500,
-                                    'Expert On Front-End Technologies',
+                                    'Expert In Front-End Technologies',
+                                    500,
+                                    'Well-Versed In Back-End Technology',
                                     500
                                 ]}
                                 wrapper="span"
@@ -52,7 +54,7 @@ const Navbar = ({ isDark, setIsDark }) => {
                     </div>
                 </Link>
                 <div className="flex items-center gap-8">
-                    <div onClick={onButtonClick} className='hidden md:flex items-center gap-2 text-xl'>
+                    <div onClick={onButtonClick} className='hidden md:flex items-center gap-2 text-xl animate-pulse hover:animate-none'>
                         <MdDownload className="text-2xl"></MdDownload>
 
                         <div className='option'>
@@ -60,8 +62,8 @@ const Navbar = ({ isDark, setIsDark }) => {
                             <hr className='option_hr' />
                         </div>
                     </div>
-                    <MdOutlineLightMode onClick={() => setIsDark(!isDark)} className={`text-xl md:text-3xl`}></MdOutlineLightMode>
-                    <MdMenu onClick={() => handleMenu()} className={`text-2xl md:text-4xl`}></MdMenu>
+                    <MdOutlineLightMode onClick={() => setIsDark(!isDark)} className={`text-xl md:text-3xl transition-transform transform hover:scale-125`}></MdOutlineLightMode>
+                    <MdMenu onClick={() => handleMenu()} className={`text-2xl md:text-4xl transition-transform transform hover:scale-125`}></MdMenu>
                 </div>
             </div>
         </div>

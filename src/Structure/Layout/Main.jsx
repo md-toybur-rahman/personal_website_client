@@ -13,7 +13,7 @@ AOS.init();
 const Main = () => {
     const [isDark, setIsDark] = useState(true);
     return (
-        <div className={`${isDark ? 'text-gray-200 border-white' : 'text-white border-black'}`}>
+        <div className={`${isDark ? 'text-gray-200 border-white' : 'text-teal-400 border-black'}`}>
             <AnimatedCursor
                 innerSize={25}
                 innerStyle={{ background: 'transparent', border: `${isDark ? '2px solid white' : '2px solid white'}` }}
@@ -42,24 +42,6 @@ const Main = () => {
             <div>
                 <AnimatedBackground isDark={isDark} setIsDark={setIsDark}></AnimatedBackground>
             </div>
-            {/* <ul className={`background ${isDark ? 'bg-[#000000]' : 'bg-gradient-to-r from-blue-600 to-purple-600 animate-gradient'}`}>
-                <div className='z-10'>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </div>
-            </ul> */}
         </div>
     )
 };

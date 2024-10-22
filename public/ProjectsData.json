@@ -2,29 +2,97 @@
     {
         "id": 1,
         "project_name": "Language Mastery",
-        "image": "https://m.media-amazon.com/images/S/amzn-author-media-prod/aq5fpg9pus04ha46efc4p6tkaf.jpg",
+        "project_type": "Full-Stack",
+        "image": [
+            {
+                "url": "https://res.cloudinary.com/dnth5isxe/image/upload/v1726573362/language-mastery-d6d30.web.app__q219nl.jpg"
+            }
+        ],
         "category": "Learning Platform",
         "live_link": "https://language-mastery-d6d30.web.app"
     },
     {
         "id": 2,
         "project_name": "Toys World",
-        "image": "https://cdn.shopify.com/s/files/1/0349/4379/5332/files/TW-Best-Toys-Web-Banner-781x854-0223-FA-01_479x.jpg?v=1677561529",
+        "project_type": "Full-Stack",
+        "image": [
+            {
+                "url": "https://res.cloudinary.com/dnth5isxe/image/upload/v1727245768/toys-world-a9653.web.app__msclz6.jpg"
+            }
+        ],
         "category": "Online Shopping",
         "live_link": "https://toys-world-a9653.web.app/"
     },
     {
         "id": 3,
         "project_name": "Awesome Chef",
-        "image": "https://www.awesomechef.in/wp-content/uploads/2020/06/Awesome-Chef-Logo-PNG.png",
+        "project_type": "Full-Stack",
+        "image": [
+            {
+                "url": "https://res.cloudinary.com/dnth5isxe/image/upload/v1727251760/awesome-chef-9bf80.web.app__ituo2u.jpg"
+            }
+        ],
         "category": "Chef Collection",
         "live_link": "https://awesome-chef-9bf80.web.app/"
     },
     {
         "id": 4,
         "project_name": "Job Hunter",
-        "image": "https://yt3.googleusercontent.com/seEOlV63-FCBHHXpfr08M2SI-cmo-0-USTBHp11qdiquLGhzcYXJCdShGPXx1qTwnweY2pPU8yY=s900-c-k-c0x00ffffff-no-rj",
+        "project_type": "Front-End",
+        "image": [
+            "https://res.cloudinary.com/dnth5isxe/image/upload/v1725169182/job_hunter_a9tbee.jpg"
+        ],
         "category": "Job Placement",
-        "live_link": "https://job-hunter-50e385.netlify.app/L"
+        "live_link": "https://job-hunter-50e385.netlify.app/"
+    },
+    {
+        "id": 5,
+        "project_name": "SARScore",
+        "project_type": "Front-End",
+        "image": [
+            "https://i.ibb.co/KKGWX8X/Sar-Score1.jpg"
+        ],
+        "category": "Business",
+        "live_link": "https://helpful-torrone-121541.netlify.app/"
+    },
+    {
+        "id": 8,
+        "project_name": "SassLand",
+        "project_type": "Front-End",
+        "image": [
+            "https://res.cloudinary.com/dnth5isxe/image/upload/v1726555470/bejewelled-tulumba-a8d6a0.netlify.app_home2_r3g749.jpg"
+        ],
+        "category": "Blog",
+        "live_link": "https://bejewelled-tulumba-a8d6a0.netlify.app/"
+    },
+    {
+        "id": 9,
+        "project_name": "Draw 3D",
+        "project_type": "Front-End",
+        "image": [
+            "https://res.cloudinary.com/dnth5isxe/image/upload/v1726555243/luminous-dusk-a47a47.netlify.app__2_ynpi1d.jpg"
+        ],
+        "category": "Blog",
+        "live_link": "https://luminous-dusk-a47a47.netlify.app"
+    },
+    {
+        "id": 6,
+        "project_name": "Bookshelf",
+        "project_type": "Full-Stack",
+        "image": [
+            "https://i.ibb.co/KKGWX8X/Sar-Score1.jpg"
+        ],
+        "category": "Library Management",
+        "live_link": "https://bookshelf-b1eda.web.app/"
+    },
+    {
+        "id": 7,
+        "project_name": "Untitled Store",
+        "project_type": "Front-End",
+        "image": [
+            "https://res.cloudinary.com/dnth5isxe/image/upload/v1726554851/gleaming-twilight-4366e8.netlify.app__1_qqt1qx.jpg"
+        ],
+        "category": "Online Shop",
+        "live_link": "https://gleaming-twilight-4366e8.netlify.app"
     }
 ]

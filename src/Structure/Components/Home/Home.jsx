@@ -9,18 +9,22 @@ const Home = () => {
     return (
         <div data-aos="fade-down" data-aos-duration="1500" className="h-[80vh] flex items-center justify-center">
             <div className="text-center">
-                <h1 className="text-2xl md:text-5xl">HEY, I'AM <span className="font-cinzel font-extrabold highlight">TOYBUR RAHMAN</span></h1>
-                <h1 className="text-2xl md:text-5xl">but you can call me <span className="font-cinzel font-extrabold">tuhin</span></h1>
-                <p className='text-lg md:text-3xl mt-4'>I'm a Front End Developer</p>
-                <div className={`flex items-center justify-center gap-8 md:gap-16 mt-10 font-bold`}>
-                    <Link to='/projects' className='flex items-center gap-2 md:gap-4 md:text-xl'>
+                <div className='flex items-center justify-center mb-8'>
+                    <img className='rounded-lg h-[200px]' src="profile.jpg" alt="" />
+                </div>
+                <h1 className="text-2xl md:text-4xl">HEY, I'AM <span className="font-cinzel font-extrabold highlight">TOYBUR RAHMAN</span></h1>
+                <h1 className="text-2xl md:text-4xl">but you can call me <span className="font-cinzel font-extrabold">tuhin</span></h1>
+                <p className='text-lg md:text-2xl mt-4 font-medium'>I'm a Web Developer</p>
+                <p className='text-lg md:text-xl mt-2 font-medium'>Expert In Front End Technologies With 3 Years of Experience <br /> And <br /> Well-Versed In Back-End Technology With 1 Years Of Experience</p>
+                <div className={`flex items-center justify-center gap-8 md:gap-16 mt-14 font-semibold`}>
+                    <Link to='/projects' className='flex items-center gap-2 md:gap-4 md:text-xl animate-pulse hover:animate-none'>
                         <MdArrowForward className='md:text-2xl'></MdArrowForward>
                         <div className='option'>
                             <h1>See my Projects</h1>
                             <hr className='option_hr' />
                         </div>
                     </Link>
-                    <Link to="/about" className='flex items-center gap-2 md:gap-4 md:text-xl'>
+                    <Link to="/about" className='flex items-center gap-2 md:gap-4 md:text-xl animate-pulse hover:animate-none'>
                         <MdArrowForward className='md:text-2xl'></MdArrowForward>
                         <div className='option'>
                             <h1>More about me</h1>

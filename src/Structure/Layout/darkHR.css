@@ -1,0 +1,12 @@
+.option_hr {
+    width: 0px;
+    transition: .5s ease;
+    border: 1px solid #A6ADCA;
+    margin-left: -2px;
+}
+.option{
+    overflow: hidden;
+}
+.option:hover .option_hr {
+    width: 100%;
+}
