@@ -7,14 +7,14 @@ import { TypeAnimation } from 'react-type-animation';
 const Navbar = ({ isDark, setIsDark }) => {
     const onButtonClick = () => {
         // using Java Script method to get PDF file
-        fetch('Front-End-Resume-Toybur-Rahman.pdf').then(response => {
+        fetch('Toybur_Rahman_Resume.pdf').then(response => {
             response.blob().then(blob => {
                 // Creating new object of PDF file
                 const fileURL = window.URL.createObjectURL(blob);
                 // Setting various property values
                 let alink = document.createElement('a');
                 alink.href = fileURL;
-                alink.download = 'Toybur Rahman Resume.pdf';
+                alink.download = 'Toybur_Rahman_Resume.pdf';
                 alink.click();
             })
         })

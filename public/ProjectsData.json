@@ -4,9 +4,7 @@
         "project_name": "Language Mastery",
         "project_type": "Full-Stack",
         "image": [
-            {
-                "url": "https://res.cloudinary.com/dnth5isxe/image/upload/v1726573362/language-mastery-d6d30.web.app__q219nl.jpg"
-            }
+            "https://res.cloudinary.com/dnth5isxe/image/upload/v1726573362/language-mastery-d6d30.web.app__q219nl.jpg"
         ],
         "category": "Learning Platform",
         "live_link": "https://language-mastery-d6d30.web.app"
@@ -16,9 +14,7 @@
         "project_name": "Toys World",
         "project_type": "Full-Stack",
         "image": [
-            {
-                "url": "https://res.cloudinary.com/dnth5isxe/image/upload/v1727245768/toys-world-a9653.web.app__msclz6.jpg"
-            }
+            "https://res.cloudinary.com/dnth5isxe/image/upload/v1727245768/toys-world-a9653.web.app__msclz6.jpg"
         ],
         "category": "Online Shopping",
         "live_link": "https://toys-world-a9653.web.app/"
@@ -28,9 +24,7 @@
         "project_name": "Awesome Chef",
         "project_type": "Full-Stack",
         "image": [
-            {
-                "url": "https://res.cloudinary.com/dnth5isxe/image/upload/v1727251760/awesome-chef-9bf80.web.app__ituo2u.jpg"
-            }
+            "https://res.cloudinary.com/dnth5isxe/image/upload/v1727251760/awesome-chef-9bf80.web.app__ituo2u.jpg"
         ],
         "category": "Chef Collection",
         "live_link": "https://awesome-chef-9bf80.web.app/"
